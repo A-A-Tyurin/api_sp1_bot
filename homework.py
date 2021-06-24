@@ -43,7 +43,7 @@ def parse_homework_status(homework):
 
     verdict = HOMEWORK_STATUSES[homework_status]
 
-    return f'Проект "{homework_name}"!\n\n{verdict}'
+    return f'У вас проверили работу "{homework_name}"!\n\n{verdict}'
 
 
 def get_homeworks(current_timestamp):
